@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #11998e;
+        background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -267,11 +267,11 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #222;
-    background: #11998e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #11998e, #F7F7F7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #11998e, #F7F7F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url('img/header-bg.jpg');
+    background-position: center center;
+    background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -288,7 +288,7 @@ header .intro-text .intro-lead-in {
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     font-style: italic;
-    line-height: 50px;
+    line-height: 22px;
 }
 
 header .intro-text .intro-heading {
@@ -374,7 +374,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #12e161;  /* Fallback when no plugin support */
+    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 

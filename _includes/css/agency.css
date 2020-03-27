@@ -263,6 +263,13 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+    
+    .resume-butt {
+	border-style: solid;
+	border-color: #{{ site.data.template.color.secondary }};
+	border-radius: 10px;
+	border-width: 2px;
+    }
 }
 
 header {

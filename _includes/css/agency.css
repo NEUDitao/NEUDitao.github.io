@@ -434,19 +434,7 @@ section h3.section-subheading {
 
 .timeline {
     position: relative;
-    padding: 0;
     list-style: none;
-}
-
-.timeline:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    background-color: #f1f1f1;
 }
 
 .timeline>li {
@@ -461,13 +449,9 @@ section h3.section-subheading {
     display: table;
 }
 
-.timeline>li:after {
-    clear: both;
-}
-
 .timeline>li .timeline-panel {
     float: right;
-    position: relative;
+    position: absolute;
     width: 100%;
     padding: 0 20px 0 100px;
     text-align: left;
@@ -496,9 +480,10 @@ section h3.section-subheading {
     margin-left: 0;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
-    text-align: center;
+    text-align: left;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
+    float: left;
 }
 
 .timeline>li .timeline-image h4 {
@@ -508,8 +493,9 @@ section h3.section-subheading {
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
+    position: absolute;
     float: right;
-    padding: 0 20px 0 100px;
+    padding: 0 20px 0px 100px;
     text-align: left;
 }
 
@@ -557,13 +543,13 @@ section h3.section-subheading {
 
     .timeline>li .timeline-panel {
         float: left;
-        width: 41%;
+        width: 100%;
         padding: 0 20px 20px 30px;
-        text-align: right;
+        text-align: left;
     }
 
     .timeline>li .timeline-image {
-        left: 50%;
+        left: 0%;
         width: 100px;
         height: 100px;
         margin-left: -50px;

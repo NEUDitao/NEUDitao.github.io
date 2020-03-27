@@ -8,7 +8,7 @@ img: searchneu.png
 thumbnail: searchneuthumbnail.png
 alt: image-alt
 project-date: Since March 2019
-category: Web Development
-description: 
+technologies: React, Typescript, Node, Postgresql
+description: <a href="https://searchneu.com/">SearchNEU</a> is a website that allows students to quickly and easily search up Northeastern classes, 
 
 ---

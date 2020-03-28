@@ -448,6 +448,7 @@ section h3.section-subheading {
     position: relative;
     margin-bottom: 50px;
     min-height: 50px;
+    display: inline;
 }
 
 .timeline>li:before,
@@ -457,68 +458,33 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-panel {
-    float: right;
-    position: absolute;
+    position: relative;
     width: 100%;
-    padding: 0 20px 0 100px;
+    padding: 0 10px 0 100px;
     text-align: left;
 }
 
-.timeline>li .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
+
+.test {
+    width: 80%;
+    height: auto;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
 }
 
-.timeline>li .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
 
 .timeline>li .timeline-image {
     z-index: 100;
-    position: absolute;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    text-align: left;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
     float: left;
-}
-
-.timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel {
-    position: absolute;
-    float: right;
-    padding: 0 20px 0px 100px;
     text-align: left;
+    display: inline;
 }
 
-.timeline>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
 
 .timeline>li:last-child {
     margin-bottom: 0;
@@ -527,15 +493,22 @@ section h3.section-subheading {
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
+
 }
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
+
 }
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+}
+
+.skillz {
+    color: rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, .9);
+    float: right;
 }
 
 @media(min-width:768px) {

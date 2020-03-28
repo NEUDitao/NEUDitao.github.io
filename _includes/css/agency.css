@@ -448,7 +448,6 @@ section h3.section-subheading {
     position: relative;
     margin-bottom: 50px;
     min-height: 50px;
-    display: inline;
 }
 
 .timeline>li:before,
@@ -460,7 +459,7 @@ section h3.section-subheading {
 .timeline>li .timeline-panel {
     position: relative;
     width: 100%;
-    padding: 0 10px 0 100px;
+    padding: 0 10px 0 10px;
     text-align: left;
 }
 
@@ -507,7 +506,7 @@ section h3.section-subheading {
 }
 
 .skillz {
-    color: rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, .9);
+    color: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
     float: right;
 }
 

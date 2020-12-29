@@ -5,8 +5,8 @@ Sciences to manage office hours
 layout: default
 modal-id: 3
 date: 2020-07-01
-img: "office-hours.png"
-thumbnail: "office-hours.png"
+img: office-hours.png
+thumbnail: office-hours.png
 alt: image-alt
 project-date: Since July 2020
 technologies: NextJS, NestJS, Postgres, Typescript

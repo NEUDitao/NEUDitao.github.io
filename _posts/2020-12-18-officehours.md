@@ -1,7 +1,6 @@
 ---
 title: Khoury Office Hours
-subtitle: A web app created for the Khoury College of Computer
-Sciences to manage office hours
+subtitle: A web app created for the Khoury College of Computer Sciences to manage office hours
 layout: default
 modal-id: 3
 date: 2020-07-01

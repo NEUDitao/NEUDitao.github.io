@@ -3,7 +3,7 @@ baseurl: /
 
 # Site settings
 title: Eddy Li
-email: li.edwa@northeastern.edu
+email: edward.d.li@gmail.com
 description: "Hi, I'm Eddy Li, Software Engineer"
 
 # Team names, titles and social links
@@ -21,14 +21,6 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/fakeedwardli?lang=en
-#  - title: facebook
-#    url:
-#  - title: stack-overflow
-#    url: http://stackoverflow.com/questions/tagged/jekyll
-#  - title: bitbucket
-#    url: http://bitbucket.org/jekyll
   - title: github
     url: https://github.com/NEUDitao
   - title: linkedin
@@ -36,8 +28,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 23348 Augusta
-  - line: Mission Viejo, CA 92692
+  - line: Seattle, WA
 
 # Build settings
 markdown: kramdown

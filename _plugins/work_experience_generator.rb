@@ -49,5 +49,9 @@ module Jekyll
                                            .sort_by { |exp, fname| File.basename(fname) }
                                            .map { |exp, _| exp }
         
+        # Store the work experiences in site data
+        site.data['work_experience'] = work_experiences
+      end
+    end
   end
 end

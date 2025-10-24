@@ -507,7 +507,6 @@ section h3.section-subheading {
 }
 
 .skillz {
-    color: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
     float: right;
 }
 

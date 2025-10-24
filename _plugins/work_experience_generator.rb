@@ -34,7 +34,6 @@ module Jekyll
                 'date_range' => front_matter_data['date_range'],
                 'image_badge' => front_matter_data['image_badge'],
                 'programming_languages' => front_matter_data['programming_languages'],
-                'order' => front_matter_data['order'] || 999,
                 'description' => processed_content.strip
               }
               
@@ -45,12 +44,10 @@ module Jekyll
           end
         end
         
-        # Sort by order
-        work_experiences.sort_by! { |exp| exp['order'] }
+        # Sort by filename instead of order
+        work_experiences = work_experiences.zip(Dir.glob(File.join(work_experience_dir, '*.md')).sort)
+                                           .sort_by { |exp, fname| File.basename(fname) }
+                                           .map { |exp, _| exp }
         
-        # Update site data
-        site.data['work_experiences'] = work_experiences
-      end
-    end
   end
 end

@@ -113,6 +113,12 @@ to **think** about problems; it's allowed me to get back into algorithmic style 
 relatively easily, allowing me to rely on fundamentals for naive LeetCode-style questions
 with ease. 
 
+One of the best parts of this class is reconnecting with old students. I've had many tell me,
+whether on LinkedIn or in passing on the street, that they credit part of their current
+success to my teaching, which humbles me greatly. Teaching is really a reward in and of
+itself, and I'm honoured to have helped multiple students unlock an understanding of the
+fundamentals of computing.
+
 Northeastern's recently changed the curriculum to instead use Pyret, a language based on
 data-definitions, and then migrating students to use Python. While I understand where this
 change comes from, I don't think it will produce a better crop of students. Much of this

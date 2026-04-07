@@ -3,7 +3,7 @@ title: Hi, I'm Eddy
 layout: page
 ---
 
-I'm a Software Engineer employed at [Read AI](https://www.read.ai/), where I work on the Experiences team.
+I'm a Software Engineer employed at [Read AI](https://www.read.ai/), where I work on the Extensions team.
 I've also formerly worked at Meta. More details on my [work experience](/work-experience/) page.
 
 And if you're interested in the rest of me... read on...

@@ -8,8 +8,8 @@ listing older items that may no longer be relevent. If you actually want to see 
 makes me hirable, check out my [resume](/resume.pdf)
 
 ## Read AI
-*Full-Stack Software Engineer (Experiences) | November 2025 - Present*
-- I'm joining Read AI's Experiences team, working on a Desktop app which will help synthesize information from various sources (calls, messaging apps, e-mail, Calendar) to help users cut redundant meetings, and prioritize work items
+*Full-Stack Software Engineer (Desktop) | November 2025 - Present*
+- I'm on Read AI's Desktop team
 
 
 <!-- ![Read Logo](assets/about/read ai.jpg)programming_languages: Rust, React -->

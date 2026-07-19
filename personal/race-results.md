@@ -2,6 +2,7 @@
 title: Race Results
 ---
 ## 2026
+- 07/12/26 \| [Seattle to Portland Classic](https://cascade.org/rides-events/seattle-portland-2026) \| 2 days [1](https://www.strava.com/activities/19274980061) [2](https://www.strava.com/activities/19288496009), (not a race), Salsa Journeyer
 - 05/17/26 \| [Damascus Trail Days Half Marathon](https://sites.chronotrack.com/event/90414/results/entry/78821158) \| [2:05:49](https://www.strava.com/activities/18544864326), 21/60, Xero HFS
 - 03/01/26 \| [SKECHERS Hot Chocolate Run - Seattle](https://gallery.us.runnertag.site/events/2026-hot-chocolate-run-seattle/search/participants/6387) \| [24:44](https://www.strava.com/activities/17566656056/overview), 185/5424, Xero HFS
 

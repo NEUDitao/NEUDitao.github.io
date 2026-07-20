@@ -18,7 +18,7 @@ title: Race Results
 
 | ![Seafair Duathalon](/assets/personal/seafair.jpg) |
 | :--:|
-| * This image makes me look a lot happier than I am. Fighting for my life in mile 1 of the 5k* |
+| *This image makes me look a lot happier than I am. Fighting for my life in mile 1 of the 5k* |
 
 <br/>
 
